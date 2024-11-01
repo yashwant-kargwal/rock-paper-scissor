@@ -27,7 +27,7 @@ The project consists of:
 
 - **index.html**: Contains the HTML structure.
 - **style.css**: Handles the game’s styling and responsiveness.
-- **app.js**: Contains the game logic and interactivity.
+- **script.js**: Contains the game logic and interactivity.
 
 ## Built With
 - HTML
