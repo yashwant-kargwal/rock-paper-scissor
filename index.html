@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game | Yashwant Kargwal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="media/logo.jpg" type="image/x-icon">
+    <meta name="description" content="Try this Rock Paper Scissor Game which is made by Yashwant Kargwal using Html&CSS and JS.">
+    <meta property="og:title" content="Rock Paper Scissor Game | Yashwant Kargwal">
+    <meta property="og:description" content="Try this Rock Paper Scissor Game which is made by Yashwant Kargwal using Html&CSS and JS.">
+    <meta property="og:image" content="media/logo.jpg">
+    <!-- <meta property="og:url" content=""> -->
+    <link rel="stylesheet" href="https://yashwant-kargwal.github.io/quickcss/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="heading">
+        <h1>Rock Paper Scissor Game</h1>
+    </div>
+    <div class="subheading">
+        <h2>Pick Your Move</h2>
+    </div>
+    <div class="option-picks">
+        <div class="userChoice" id="rock">
+            <i class="fa-regular fa-hand-back-fist img"></i>
+        </div>
+        <div class="userChoice" id="paper">
+            <i class="fa-regular fa-hand img"></i>
+        </div>
+        <div class="userChoice" id="scissor">
+            <i class="fa-regular fa-hand-scissors img"></i>
+        </div>
+    </div>
+
+    <div class="stats">
+        <span class="span">
+            <p>You Select :</p>
+            <p id="user-select"> </p>
+        </span>
+        <span class="span">
+            <p>Computer Select :</p>
+            <p id="comp-select"> </p>
+        </span>
+        <button id="start" class="btn">Start</button>
+    </div>
+
+    <div class="record">
+        <div class="record-data">
+            <p id="user-point" class="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="record-data">
+            <p id="computer-point" class="user-score">0</p>
+            <p>Computer</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

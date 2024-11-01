@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.heading{
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+    background-color: rgb(0, 0, 82);
+}
+.heading h1{
+    color: aliceblue;
+    user-select: none;
+}
+.subheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px auto;
+}
+.subheading h2{
+    color: white;
+    padding: 10px 20px;
+    background-color: green;
+    user-select: none;
+    border-radius: 12px;
+}
+.option-picks{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 20px auto;
+}
+.option-picks div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    height: 150px;
+    width: 150px;
+    font-size: 5em;
+    text-align: center;
+    border-radius: 50%;
+    border: 4px solid black;
+    color: black;
+    padding: 30px;
+    cursor: pointer;
+}
+.img:hover{
+    border: 4px solid green;
+    color: green;
+}
+.img:active{
+    transform: scale(0.95);
+}
+.record{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px 10px;
+}
+.record-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-score{
+    font-size: 36px;
+}
+.stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 10px;
+}
+.btn{
+    border-radius: 12px;
+}
+.span{
+    font-size: 20px;
+    display: flex;
+}
